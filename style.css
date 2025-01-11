@@ -178,6 +178,25 @@ body {
   padding-bottom: 60px;
 }
 
+.pfanne {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.pfanne h1 {
+  text-align: center;
+}
+
+.pfanne_inhalt {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pfanne_text {
+  width: 50%;
+}
+
 .rezept_img {
   object-fit: cover;
   width: 100%;
@@ -449,6 +468,19 @@ button {
     aspect-ratio: 2/1;
   }
 
+  .pfanne_inhalt {
+    flex-direction: column-reverse;
+    padding: 0 70px;
+  }
+  .pfanne_inhalt .quick_links img {
+    width: 100%;
+    aspect-ratio: 3/2;
+  }
+
+  .pfanne_text {
+    width: 100%;
+  }
+
   .logo a img {
     height: 50px;
   }
@@ -640,5 +672,18 @@ button {
 
   .zutatenliste {
     font-size: 10px;
+  }
+
+  .pfanne_inhalt {
+    padding: 0;
+  }
+
+  .pfanne_text p {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .pfanne {
+    padding-bottom: 30px;
   }
 }
