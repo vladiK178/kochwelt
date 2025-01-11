@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kochwelt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/logo_small.png" type="image/x-icon" />
+    <script>
+      function toggleMenu() {
+        document.getElementById("menu_mobile").classList.toggle("hide");
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- Header Container -->
+    <div id="div-header" class="container">
+      <div class="wrapper">
+        <div class="header">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="index.html">
+              <img src="./img/logo.png" alt="Logo" height="80" />
+            </a>
+          </div>
+
+          <!-- Navigation Menu -->
+          <nav class="nav">
+            <a href="index.html" class="active_page">Start</a>
+            <a href="croissant.html">Rezept des Tages</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="impressum.html">Impressum</a>
+          </nav>
+
+          <button class="menu_button_mobile" onclick="toggleMenu()">
+            Menü
+          </button>
+
+          <div id="menu_mobile" class="menu_mobile hide">
+            <div class="nav-wrapper">
+              <button onclick="toggleMenu()">Menü schliessen</button>
+              <nav class="nav-mobile">
+                <a href="index.html" class="mobile_active_page">Start</a>
+                <a href="croissant.html">Rezept des Tages</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="impressum.html">Impressum</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inhalt Container -->
+    <div id="div-content" class="container">
+      <div class="wrapper">
+        <div class="rezept-hero">
+          <!-- Foto -->
+          <div class="hero_img_container">
+            <a href="croissant.html">
+              <img
+                class="hero_img"
+                src="./img/croissant.jpg"
+                alt="Französische Croissants"
+              />
+            </a>
+          </div>
+
+          <!-- Text und Link-Button -->
+          <div class="hero_inhalt">
+            <h1>Französische Croissants</h1>
+            <p>
+              Schmackhafte Croissants können auch zu Hause sehr einfach gebacken
+              werden.<br />
+              Mit ca. 30 Minuten Aufwand kannst du dir ein wundervolles
+              Frühstück zaubern.
+            </p>
+            <div class="hero_link">
+              <a href="croissant.html" class="linkbutton">Rezept öffnen</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lust auf was Neues? -->
+        <div class="neue_rezepte">
+          <h1>Lust auf was Neues?</h1>
+          <div class="croissants">
+            <a class="quick_links" href="">
+              <img src="" alt="" />
+              <span>...</span>
+            </a>
+            <a class="quick_links" href="toast.html">
+              <img
+                src="img\anna-jakutajc-wojtalik-_9xjh2CMVvo-unsplash.jpg"
+                alt=""
+              />
+              <span>...</span>
+            </a>
+            <a class="quick_links" href="salat.html">
+              <img src="./img/salad.jpg" alt="" />
+              <span>Griechischer Bauernsalat</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pfanne vs. Wok - Was ist besser? -->
+        <div class="pfanne">
+          <h1>Pfanne vs. Wok - Was ist besser?</h1>
+          <div class="pfanne_inhalt">
+            <div class="">
+              <p>
+                Lorem
+                ipsum......................................................................................
+              </p>
+            </div>
+            <div class="quick_links">
+              <img src="./img/wok.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Container -->
+    <div id="div-footer" class="container">
+      <div class="wrapper">
+        <footer class="footer">
+          <!-- Logo -->
+          <div class="logo-footer">
+            <img
+              class="weisses-logo"
+              src="./img/logo.png"
+              alt="Logo"
+              height="80"
+            />
+          </div>
+
+          <!-- Footer Links -->
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/?_rdr" target="_blank"
+              ><img class="footer-social" src="./img/facebook_white.png" alt=""
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img
+                class="footer-social"
+                src="./img/instagram_white.png"
+                alt=""
+            /></a>
+            <a href="https://x.com/?lang=en" target="_blank"
+              ><img class="footer-social" src="./img/twitter_white.png" alt=""
+            /></a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
