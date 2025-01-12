@@ -3,8 +3,6 @@ let pancakes = [1, 3, 100, 200, 150, 1, 2];
 let chicken = [2, 2, 1, 120, 100, 50, 60];
 let salat = [4, 1, 1, 1, 500, 2, 200, 1, 125, 1];
 
-// https://www.chefkoch.de/rezepte/1409011245744466/Uebernachtsalat.html
-
 function rechne_positionen(rezept, init) {
   let menge = 0;
   if (init == true) {
