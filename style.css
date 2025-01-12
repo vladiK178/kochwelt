@@ -450,6 +450,10 @@ button {
     justify-content: center;
   }
 
+   #div-content {
+   min-height: calc(100vh - 150px); 
+  }
+
   .hero_img {
     width: 100%;
     height: auto;
