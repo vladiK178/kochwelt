@@ -10,6 +10,13 @@ body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#div-content {
+  flex: 1;
 }
 
 #div-header {
