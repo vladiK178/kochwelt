@@ -11,18 +11,18 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #efefef;  /* Nutzt die gleiche helle Farbe wie "neue_rezepte" Sektion */
+  background: #efefef; /* Nutzt die gleiche helle Farbe wie Ihre "neue_rezepte" Sektion */
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #008000;  /* Hauptfarbe Grün */
+  background: #008000; /* Ihre Hauptfarbe Grün */
   border-radius: 6px;
-  border: 3px solid #efefef;  /* Schafft einen schönen Abstand zum Track */
+  border: 3px solid #efefef; /* Schafft einen schönen Abstand zum Track */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #006700;  /* Etwas dunkleres Grün beim Hover */
+  background: #006700; /* Etwas dunkleres Grün beim Hover */
 }
 
 body {
@@ -138,6 +138,12 @@ body {
   width: 500px;
   height: 350px;
   border-radius: 15px;
+  transition: transform ease-in-out 125ms;
+}
+
+.hero_img:hover {
+  transform: scale(1.05); /* Bild wird um 5% größer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .rezept-hero {
@@ -152,10 +158,14 @@ body {
   color: white;
   background-color: #008000;
   text-decoration: none;
+  transition: transform ease-in-out 125ms, background-color ease-in-out 125ms;
 }
 
 .linkbutton:hover {
   text-decoration: underline;
+  transform: scale(1.05);
+  background-color: #006700;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .hero_link {
@@ -188,6 +198,12 @@ body {
   border-radius: 15px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  transition: transform ease-in-out 125ms;
+}
+
+.quick_links img:hover {
+  transform: scale(1.05); /* Bild wird um 5% größer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .quick_links span {
@@ -474,7 +490,7 @@ button {
     justify-content: center;
   }
   #div-content {
-    min-height: calc(100vh - 150px); 
+    min-height: calc(100vh - 150px);
   }
   .hero_img {
     width: 100%;
