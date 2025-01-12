@@ -1,6 +1,6 @@
-let croissants = [1, 250, 50, 500, 1, 42, 2, 0.2];
-let sandwich = [4, 12, 12, 4, 2, 8, 100, 1, 12];
-let toast = [2, 4, 1, 4, 1, 2];
+let spaghetti = [2, 200, 100, 2, 24, 2];
+let pancakes = [1, 3, 100, 200, 150, 1, 2];
+let chicken = [2, 2, 1, 120, 100, 50, 60];
 let salat = [4, 1, 1, 1, 500, 2, 200, 1, 125, 1];
 
 // https://www.chefkoch.de/rezepte/1409011245744466/Uebernachtsalat.html
