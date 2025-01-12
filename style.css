@@ -112,6 +112,7 @@ body {
 .hero_img {
   object-fit: cover;
   width: 500px;
+  height: 350px;
   border-radius: 15px;
 }
 
@@ -393,6 +394,7 @@ button {
   }
   .hero_img {
     width: 450px;
+    height: 315px;
   }
   .impressum {
     padding: 0 70px;
@@ -422,6 +424,7 @@ button {
 @media (max-width: 990px) {
   .hero_img {
     width: 350px;
+    height: 245px;
   }
 
   h1 {
@@ -449,6 +452,8 @@ button {
 
   .hero_img {
     width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 11;
   }
 
   .croissants {
