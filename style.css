@@ -5,6 +5,26 @@
   font-style: normal;
 }
 
+/* Webkit Browser (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #efefef;  /* Nutzt die gleiche helle Farbe wie "neue_rezepte" Sektion */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #008000;  /* Hauptfarbe Grün */
+  border-radius: 6px;
+  border: 3px solid #efefef;  /* Schafft einen schönen Abstand zum Track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #006700;  /* Etwas dunkleres Grün beim Hover */
+}
+
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
